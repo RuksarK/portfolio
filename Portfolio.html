@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/416d437776.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                 <img src="./mynamelogo.png" class="logo">
+                
+                  <ul id="sidemenu">
+                        <li> <a href="#header">Home</a> </li>
+                        <li> <a href="#About">About</a> </li>
+                        <li> <a href="#services">Extra-Curricular</a> </li>
+                        <li> <a href="#portfolio">Certificates</a> </li>
+                        <li> <a href="#contact">Contact</a> </li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Developer</p>
+                    <h1>Hi, I'm <span>Ruksar</span> Khan <br> from Pune</h1>
+                </div>
+                
+            </div> 
+        </div> 
+
+        <!-- -------------------about----------------- -->
+  <div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                 <img src="./new.jpg" alt=""> 
+             </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Quick learner with academic abilities and technical knowledge to succeed in different roles. Ready to expand
+                        horizons with additional knowledge and abilities gained from training and experience. Always ready to help others
+                        and use abilities to support team goals. A career-minded student with a record of good marks in different subjects.
+                        Works hard on assignments and consistently meets objectives. Looking to experience the field outside the
+                        classroom and build the foundation of knowledge and skills </p>
+
+
+                        <div class="tab-titles">
+                            <p class="links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                            <p class="links" onclick="opentab('EDUCATION')">EDUCATION</p>
+                            <p class="links" onclick="opentab('PROJECTS')">PROJECTS</p>
+                             </div>
+                        <div class="contents active-tab" id="SKILLS">
+                            <ul>
+                                <li><span>PYTHON</span></li>
+                                <!-- <li><span>HTML/ CSS/ JS</span></li> -->
+                                <li><span>DATA SCIENCE</span></li>
+                                <li><span>MACHINE LEARNING</span></li>
+                                <li><span>SQL/MYSQL</span></li>
+                            </ul>
+                        </div>
+                        <div class="contents"  id="EDUCATION">
+                            <ul>
+                                <li><span>2021-Current</span><br>Bachelor Of Computer-Science <br>
+                                    at Dr.Dy Patil Acs College <Pimpri-Pune></Pimpri-Pune></li>
+                                    
+                                <li><span>2019-2021</span><br>Higher Secondary Education(HSC) <br>
+                                     at Priyadarshani JR.College Pune</li>
+                                     
+                                <li><span>2016-2019</span><br>Secondary School Certification(SSC) <br> 
+                                    at Siddheshwar High School Pune</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="contents" id="PROJECTS" >
+                            <ul>
+                                <li><span>Project-1 (Based on Machine Learning) :   </span> <br> Titanic Survival Predictor : <a href="https://github.com/RuksarK/Titanic">Project Url</a></li>
+                                <br>
+                                <li><span>Project-2 (Based on Python - Automation) :   </span> <br>File-Finder-Tool : <a href="https://github.com/RuksarK/File-Finder-Tool">Project Url</a></li>
+                                <br>
+                                <li><span>Project-3 (Based on Python - Automation) :   </span> <br>Duplicate File Removal : <a href="https://github.com/RuksarK/Duplicate-File-Removal">Project Url</a></li>
+                               
+                            </ul>
+                        </div>
+                </div>   
+                
+            </div>
+        </div>
+    </div>
+<!-- -------------------Extra-Curricular------------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Extra-Curricular</h1>
+             <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Deloitte Technology Job Simulation [June 2023 - October 2023]</h2>
+                <p>I have completed the Deloitte Technology Job Simulation course, gaining hands-on expertise in coding,
+                    data analysis, development, cybersecurity, and forensic technology. This intensive program enhanced
+                    my proficiency in addressing real-world technology challenges, equipping me with versatile skills
+                    to excel in technology-related roles.           </p>                                                                                                         
+                    
+            </div>
+            <div>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <h2>Volunter</h2>
+                <p>[Dr.Dy.Patil ACS college] <br>
+                    <br> Successfully volunteered for college events, including the 
+                    annual college fest, by collaborating with event organizers to ensure smooth execution. 
+                    Assisted in managing and coordinating various aspects of the college placement drive, 
+                    facilitating communication between recruiters and students. 
+                    </p>
+            </div>
+            <div>
+                <i class="fa-regular fa-star"></i>
+                <h2>TCS ion Career Edge - Young Professional program.</h2>
+                <p>Participated in online TCS iON program. It showcases the development 
+                    of essential soft skills like Communication, Presentation, and Soft Skills, as well as guidance on
+                     crafting a Career Framework and Resume. </p>
+                   
+            </div>
+        </div>
+            
+        </div>
+   </div>
+
+
+<!-- -------------------certificates------------------- -->
+<div id="portfolio">
+        <div class="container-1">
+            <h3 class="subtitle">Certificates</h3>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Deloitte.png" alt="">
+
+                    </div>
+    
+                <div class="work">
+                    <img src="./tcs.png" alt="">
+                    </div>
+                </div>
+                <a href="./Deloitte_Certificate.pdf"><button class="button-1">Download</button></a>
+               <a href="./Ruksar_khan_tcs_Certificate.pdf"><button class="button-2">Download</button></a> 
+                </div>
+               
+               
+            </div>
+          
+        </div>
+</div>
+<!-- -------------------contact----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i> ruksarkhan5867@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i></i> 7666200092</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ruksar-khan-402942214"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/RuksarK"><i class="fa-brands fa-github"></i></i></a>
+                </div>
+                <a href="./Resume - Ruksar Khan.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="text" name="E-mail" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+        </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright ©️ ruksar. Made by <i class="fa-solid fa-heart"></i> Ruksar Khan</p>
+    </div>
+    </div>
+</div>
+
+ <script>
+    var tablinks = document.getElementsByClassName("links");
+    var tabcontents = document.getElementsByClassName("contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+ </script>
+ <script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+ </script>
+ 
+ <script>
+    const scriptURL = 'c'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html> 
